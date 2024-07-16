@@ -91,11 +91,11 @@ class ViewController: UIViewController {
         }
         
         // Vertical Victory
-        if thisSymbol(a1, s) && thisSymbol(b2, s) && thisSymbol(c3, s)
+        if thisSymbol(a1, s) && thisSymbol(b1, s) && thisSymbol(c1, s)
         {
             return true
         }
-        if thisSymbol(a2, s) && thisSymbol(b2, s) && thisSymbol(c3, s)
+        if thisSymbol(a2, s) && thisSymbol(b2, s) && thisSymbol(c2, s)
         {
             return true
         }
